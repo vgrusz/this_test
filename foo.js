@@ -8,6 +8,7 @@ class Foo {
 
   foo2() {
     console.log('ejecutando foo2');
+    console.log('«this» inside foo2 is: ', this);
     let x = this.foo1(4);
     console.log('Foo2 informa que foo1 retornó el valor: ', x);
   }
